@@ -1,0 +1,3 @@
+C:\mingw64\bin\cmake.exe -E rm -f CMakeFiles\DoomClone.dir/objects.a
+C:\mingw64\bin\llvm-ar.exe qc CMakeFiles\DoomClone.dir/objects.a @CMakeFiles\DoomClone.dir\objects1.rsp
+C:\mingw64\bin\clang++.exe -g -Wl,--whole-archive CMakeFiles\DoomClone.dir/objects.a -Wl,--no-whole-archive -o DoomClone.exe -Wl,--out-implib,libDoomClone.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DoomClone.dir\linkLibs.rsp

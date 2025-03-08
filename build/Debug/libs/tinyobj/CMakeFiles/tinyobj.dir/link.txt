@@ -1,0 +1,2 @@
+C:\mingw64\bin\llvm-ar.exe qc libtinyobj.a CMakeFiles/tinyobj.dir/tinyobj.cpp.obj
+C:\mingw64\bin\llvm-ranlib.exe libtinyobj.a
