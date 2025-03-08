@@ -1,2 +1,0 @@
-C:\mingw64\bin\llvm-ar.exe qc libstb.a CMakeFiles/stb.dir/stb.c.obj
-C:\mingw64\bin\llvm-ranlib.exe libstb.a

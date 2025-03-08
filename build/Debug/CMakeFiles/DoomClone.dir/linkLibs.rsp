@@ -1,1 +1,0 @@
- libs/imgui/libimgui.a libs/glfw/src/libglfw3.a libs/stb/libstb.a libs/glad/libglad.a libs/tinyobj/libtinyobj.a -lopengl32 libs/slog/libslog.a -pthread -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
