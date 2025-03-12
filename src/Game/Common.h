@@ -2,6 +2,9 @@
 
 #include <slog/slog.h>
 
+#include <string>
+#include <algorithm>
+
 namespace Common {
 
     inline SLogger g_Logger;
@@ -12,5 +15,12 @@ namespace Common {
             slogLoggerSetName(&g_Logger, "DoomClone");
 
         return &g_Logger;
+    }
+
+    inline std::string toLowerCase(std::string str)
+    {
+        std::string lowerStr = str;
+        std::transform(lowerStr.begin(), lowerStr.end(), lowerStr.begin(), ::tolower);
+        return lowerStr;
     }
 }
